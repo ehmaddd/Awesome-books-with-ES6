@@ -108,9 +108,9 @@ form button {
   display: flex;
   justify-content: space-between;
   margin: auto 3%;
-  height: 40px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
 }
 
