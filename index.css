@@ -1,0 +1,182 @@
+body {
+  text-align: center;
+  background-image: url("./images/bg1.avif");
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  width: 7%;
+  position: absolute;
+  left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav ul {
+  list-style-type: none;
+  min-width: 20rem;
+  max-width: 25rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 7%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#time-div {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 15%;
+  float: right;
+  clear: both;
+  overflow: hidden;
+}
+
+.book-list h3 {
+  color: red;
+  text-align: center;
+}
+
+#time-div h3 {
+  display: inline;
+  font-size: 1.1rem;
+}
+
+.contact-div p {
+  text-align: left;
+  margin: 2rem 35% auto 35%;
+}
+
+#time-div p {
+  font-size: 1rem;
+  display: inline;
+  margin-right: 0.6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input {
+  border: 2px solid black;
+  height: 30px;
+}
+
+#form-div {
+  margin: auto 35%;
+}
+
+button {
+  border: 2px solid black;
+  box-shadow: 4px 5px grey;
+}
+
+form button {
+  width: 25%;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.book-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 3%;
+  height: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.book-catalog {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 90%;
+  height: auto;
+}
+
+.border-highlight {
+  border: 2px solid red;
+}
+
+main {
+  width: 100%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main hr {
+  margin: 6% auto;
+  width: 30%;
+  border-top: 2px solid black;
+}
+
+#contact-info {
+  width: 100%;
+  margin: auto;
+}
+
+#contact-info ul {
+  text-align: left;
+  margin: 1.2rem 25% auto 25%;
+  padding-left: 15%;
+}
+
+#contact-info li {
+  margin-top: 0.7rem;
+}
+
+.contact-div {
+  height: 9rem;
+  margin-top: 1.25rem;
+}
+
+.grey-bg {
+  background-color: gainsboro;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.active-link {
+  color: blue;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 2rem;
+  padding-top: 1.5%;
+  margin-top: auto;
+}
