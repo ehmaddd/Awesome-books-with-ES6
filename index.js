@@ -1,9 +1,9 @@
-import { removeList } from './modules/remove-list.js';
-import { navBar } from './modules/nav-dynamics.js';
-import { windowLoad } from './modules/window-load.js';
-import { showTime } from './modules/show-time.js';
-import { dataDisplay } from './modules/data-display.js';
-import { bookAuth } from './modules/book-auth.js';
+import removeList from './modules/remove-list.js';
+import navBar from './modules/nav-dynamics.js';
+import windowLoad from './modules/window-load.js';
+import showTime from './modules/show-time.js';
+import dataDisplay from './modules/data-display.js';
+import bookAuth from './modules/book-auth.js';
 
 class Library {
   constructor() {

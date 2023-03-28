@@ -1,4 +1,4 @@
-export const bookAuth = () => {
+const bookAuth = () => {
   const titleText = document.querySelector('#title').value;
   const authorText = document.querySelector('#author').value;
   let book;

@@ -1,4 +1,4 @@
-export const dataDisplay = (books) => {
+const dataDisplay = (books) => {
   const bookList = document.querySelector('.book-list');
   if (books.length > 0) {
     for (let i = 0; i < books.length; i += 1) {

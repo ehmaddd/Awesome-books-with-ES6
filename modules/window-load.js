@@ -1,4 +1,4 @@
-export const windowLoad = () => {
+const windowLoad = () => {
   const bookCatalog = document.querySelector('#book-list');
   const addBookForm = document.querySelector('#add-book');
   const contactInfo = document.querySelector('#contact-info');

@@ -1,4 +1,4 @@
-export const navBar = () => {
+const navBar = () => {
   const nav = document.querySelectorAll('nav a');
   const bookCatalog = document.querySelector('#book-list');
   const addBookForm = document.querySelector('#add-book');
